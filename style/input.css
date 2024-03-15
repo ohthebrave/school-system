@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+}
+
+.logo {
+    position: relative;
+    font-size: 20px;
+    
+}
+
+.nav-list li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.nav-list a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-list a:hover {
+    color: #a29d9d;
+}
+
+.section1{
+    background-image: url('https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 93vh;
+}
+.section1 label {
+    position: absolute;
+    top: 35%; /* Position 50% from the top */
+    left: 50%; /* Position 50% from the left */
+    transform: translate(-50%, -50%); /* Move it to center */
+    text-align: center;
+    color: rgb(27, 27, 27);
+    font-size: xx-large;
+    font-family: Cursive, Brush Script MT;
+}
+
+

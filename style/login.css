@@ -1,0 +1,19 @@
+.login form{
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 20px;
+    width: 35%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 20%; /* Position 50% from the top */
+    left: 50%;
+    background-color: rgb(242, 193, 169);
+}
+
+body{
+    background-image: url('https://images.pexels.com/photos/2132891/pexels-photo-2132891.jpeg?auto=compress&cs=tinysrgb&w=800');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
